@@ -112,7 +112,7 @@ if [ "${jobtype}" != "scriptnokill" ]
 then
 # Some systems have SIGUSR1 as USR1 so we hardcode the value of 10
 
-    myhostname=`hostname`
+    myhostname=`hostname -s`
     echo "*******************************************************"
     echo "* Run"
     echo "*"

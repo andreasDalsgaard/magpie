@@ -28,7 +28,7 @@
 
 source ${MAGPIE_SCRIPTS_HOME}/magpie/lib/magpie-lib-node-identification
 
-myhostname=`hostname`
+myhostname=`hostname -s`
             
 if [ "${HADOOP_FILESYSTEM_MODE}" == "hdfs" ] \
     && [ "${HADOOP_HDFS_PATH_CLEAR}" == "yes" ]

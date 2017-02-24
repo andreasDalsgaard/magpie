@@ -33,7 +33,7 @@
 source ${MAGPIE_SCRIPTS_HOME}/magpie/exports/magpie-exports-dirs
 
 Magpie_am_I_master () {
-    local myhostname=`hostname`
+    local myhostname=`hostname -s`
 
     Magpie_make_all_local_dirs_node_specific
 
@@ -55,7 +55,7 @@ Magpie_am_I_master () {
 
 # For the common pattern
 __Magpie_am_I_a_project_node () {
-    local myhostname=`hostname`
+    local myhostname=`hostname -s`
     local confdir=$1
     local noderankvar=$2
     local mastersfile=$3
@@ -86,7 +86,7 @@ __Magpie_am_I_a_project_node () {
 }
 
 __Magpie_am_I_a_hadoop_namenode_in_hdfs_federation () {
-    local myhostname=`hostname`
+    local myhostname=`hostname -s`
     
     Magpie_make_hadoop_local_dirs_node_specific
     
