@@ -1067,7 +1067,7 @@ export HBASE_SETUP=no
 
 # Version
 #
-export HBASE_VERSION="1.2.4"
+export HBASE_VERSION="1.3.0"
 
 # Path to your Hbase build/binaries
 #
@@ -1239,7 +1239,7 @@ export PHOENIX_SETUP=no
 
 # Phoenix Version
 #
-export PHOENIX_VERSION="4.8.1-HBase-1.2"
+export PHOENIX_VERSION="4.9.0-HBase-1.2"
 
 # Path to your Phoenix build/binaries
 #
@@ -1322,7 +1322,7 @@ export SPARK_SETUP=no
 
 # Version
 #
-export SPARK_VERSION="2.0.2-bin-hadoop2.7"
+export SPARK_VERSION="2.1.0-bin-hadoop2.7"
 
 # Path to your Spark build/binaries
 #
